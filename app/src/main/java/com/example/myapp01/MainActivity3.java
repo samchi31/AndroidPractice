@@ -21,14 +21,14 @@ public class MainActivity3 extends AppCompatActivity {
 
         List<TextView> tvs = new ArrayList<TextView>();
         for(int i=0;i<tvs.size();i++){
-
+            tvs.add((TextView) findViewById(R.id.tv+i));
         }
-        tvs.add((TextView) findViewById(R.id.tv1));
-        tvs.add((TextView) findViewById(R.id.tv2));
-        tvs.add((TextView) findViewById(R.id.tv3));
-        tvs.add((TextView) findViewById(R.id.tv4));
-        tvs.add((TextView) findViewById(R.id.tv5));
-        tvs.add((TextView) findViewById(R.id.tv6));
+//        tvs.add((TextView) findViewById(R.id.tv1));
+//        tvs.add((TextView) findViewById(R.id.tv2));
+//        tvs.add((TextView) findViewById(R.id.tv3));
+//        tvs.add((TextView) findViewById(R.id.tv4));
+//        tvs.add((TextView) findViewById(R.id.tv5));
+//        tvs.add((TextView) findViewById(R.id.tv6));
 
         Button btn = findViewById(R.id.btn);
         btn.setOnClickListener(new View.OnClickListener() {
